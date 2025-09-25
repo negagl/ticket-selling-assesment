@@ -46,14 +46,14 @@ INSERT INTO events (name, status) VALUES
     ('Iron City', 0);
 
 INSERT INTO tickets (event_id, type, price, total_tickets, remaining_tickets) VALUES
-    (1, 'VIP', 150.00, 100, 100),
-    (1, 'General Admission', 50.00, 500, 500),
-    (2, 'Balcony', 75.00, 200, 200),
+    (1, 'VIP', 150.00, 100, 80),
+    (1, 'General Admission', 50.00, 500, 120),
+    (2, 'Balcony', 75.00, 200, 20),
     (2, 'Floor', 100.00, 300, 300),
-    (3, 'Standard', 40.00, 400, 400),
-    (3, 'Premium', 80.00, 150, 150),
-    (4, 'Early Bird', 30.00, 250, 250),
-    (4, 'Regular', 60.00, 350, 350),
+    (3, 'Standard', 40.00, 400, 210),
+    (3, 'Premium', 80.00, 150, 100),
+    (4, 'Early Bird', 30.00, 250, 20),
+    (4, 'Regular', 60.00, 350, 10),
     (5, 'Front Row', 200.00, 50, 10),
     (5, 'General', 70.00, 450, 0);
 

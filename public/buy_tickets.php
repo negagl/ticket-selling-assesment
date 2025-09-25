@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <button type="submit" class="bg-[#1d5971] text-white font-bold px-12 py-2 rounded-lg cursor-pointer">Buy</button>
         </div>
 
-        <span class=<?= ($order_code == 0) ? "text-green-500" : "text-red-500" ?>><?= $message ?></span>
+        <span class="<?= ($order_code == 0) ? "text-green-700" : "text-red-500" ?> font-bold"><?= $message ?></span>
     </form>
 </main>
 
