@@ -60,8 +60,4 @@ INSERT INTO tickets (event_id, type, price, total_tickets, remaining_tickets) VA
 INSERT INTO users (email, name) VALUES
     ("test1@user.com", "Test User 1"),
     ("test2@user.com", "Test User 2"),
-    ("test3@user.com", "Test User 3"),
-    ("test4@user.com", "Test User 4"),
-    ("test5@user.com", "Test User 5"),
-    ("test6@user.com", "Test User 6"),
-    ("test7@user.com", "Test User 7");
+    ("test3@user.com", "Test User 3");

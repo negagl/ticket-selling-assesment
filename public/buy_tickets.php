@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <label>
             <span>Quantity:</span>
-            <input type="number" name="quantity" max="10" min="1" class="bg-white" value="1">
+            <input type="number" name="quantity" min="1" class="bg-white" value="1">
         </label>
 
         <div>
